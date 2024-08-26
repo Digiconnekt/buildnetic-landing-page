@@ -1,0 +1,186 @@
+section.hero-section {
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 105px);
+}
+
+section.hero-section .hero-section-content {
+  height: calc(100vh - 105px);
+}
+
+section.hero-section .hero-section-content h1.hero-section-title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+section.hero-section .hero-section-content h1.hero-section-title span {
+  color: var(--primary);
+}
+
+section.hero-section .hero-section-content p.hero-section-sub-title {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+section.hero-section .hero-section-content a.hero-section-btn {
+  display: inline-block;
+  background-color: var(--primary);
+  color: #ffffff;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+section.hero-section .hero-section-content img.hero-img {
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+section.three-blocks-section {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+section.three-blocks-section .block {
+  width: 130px;
+}
+
+section.three-blocks-section .block h2.title {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+section.three-blocks-section .icon-block {
+  background-image: url("../images/three-blocks-bg.png");
+  background-color: #121d29;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+section.three-blocks-section .icon-block:hover {
+  transform: scale(1.1);
+}
+
+section.three-blocks-section .icon-block .icon {
+  font-size: 70px;
+  color: var(--primary);
+}
+
+section.services-section .block {
+  background-color: #121d29;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+section.services-section .block:hover {
+  transform: scale(1.1);
+}
+
+section.services-section .block .icon {
+  font-size: 50px;
+  color: var(--primary);
+}
+
+section.services-section .block h3.title {
+  font-size: 27px;
+  margin-top: 10px;
+}
+
+section.services-section .block p.sub-title {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+section.project-section .block {
+  transition: all 0.2s ease-in-out;
+}
+
+section.project-section .block img {
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+section.project-section .block:hover img {
+  transform: scale(0.9);
+}
+
+section.project-section .block p.sub-title {
+  color: var(--primary);
+}
+
+section.project-section .block ul li .icon {
+  margin-bottom: -3px;
+}
+
+section.contact-us-section .sub-title {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+section.contact-us-section .form-block {
+  background-color: var(--primary);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+section.contact-us-section .form-block button.submit-btn {
+  background-color: #ffffff;
+  border: 0px;
+  max-width: 120px;
+  width: 100%;
+  padding: 7px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--primary);
+  transition: all 0.2s ease-in-out;
+}
+
+section.contact-us-section .form-block button.submit-btn:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+a.floating-contact-us-btn {
+  position: fixed;
+  right: -40px;
+  top: 50%;
+  background-color: var(--primary);
+  padding: 7px 20px;
+  border-radius: 5px;
+  transform: rotate(-90deg);
+  font-size: 18px;
+}
+
+a.floating-contact-us-btn:hover {
+  background-color: #ffffff;
+  color: var(--primary);
+}
+
+@media (max-width: 992px) {
+  section.hero-section {
+    height: auto;
+  }
+
+  section.hero-section .hero-section-content {
+    height: 100%;
+  }
+}
